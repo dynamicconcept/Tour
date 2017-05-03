@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="AppCompatResource">
+
+    <item
+        android:id="@+id/signOutUser"
+        android:showAsAction="ifRoom"
+        android:title="@string/sign_out"></item>
+
+
+    <item
+        android:id="@+id/fullScreen"
+        android:title="@string/showFullScreen"
+        app:showAsAction="never"></item>
+
+    <item
+        android:id="@+id/hideToolbar"
+        android:title="@string/hideToolbar"
+        app:showAsAction="never"></item>
+
+
+</menu>

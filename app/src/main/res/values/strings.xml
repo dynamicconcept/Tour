@@ -1,0 +1,105 @@
+<resources>
+    <string name="app_name">Tour Mate</string>
+
+    <!--drawer layout string-->
+    <string name="drawer_open">Drawer Open</string>
+    <string name="drawer_close">Drawer Close</string>
+
+    <!--Menu String-->
+    <string name="showFullScreen">Full Screen Mode</string>
+    <string name="hideFullScreen">Normal Screen Mode</string>
+    <string name="showToolbar">Show Toolbar</string>
+    <string name="hideToolbar">Hide Toolbar</string>
+    <string name="search">Search</string>
+
+    <string name="search_hint">Enter City Name</string>
+
+    <string name="today">Today</string>
+    <string name="tomorrow">Tomorrow</string>
+    <string name="monday">Monday</string>
+
+    <string name="near_place">Near Place</string>
+    <string name="weather_info">Weather Info</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="user_name">User Name</string>
+    <string name="password">Password</string>
+    <string name="cancel">Cancel</string>
+    <string name="login">Login</string>
+    <string name="sign_up">Create One</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="password_recovery_info">Password Recovery Info</string>
+    <string name="add_profile_picture">Add Profile Picture</string>
+    <string name="register">Register</string>
+    <string name="forget_password">Forget Password</string>
+    <string name="sign_in_error">New User Please Sign Up First</string>
+    <string name="recover">Recover</string>
+    <string name="your_password">Your Password</string>
+    <string name="goto_main_page">Goto Main Page</string>
+    <string name="recovery_hints">Mobile Number or Recovery Data</string>
+    <string name="event_end_date">Tour End Date</string>
+    <string name="event_start_date">Tour Start Date</string>
+    <string name="event_budget_tk">Tour Budget (tk)</string>
+    <string name="event_location">Tour Location</string>
+    <string name="event_name">Tour Name</string>
+    <string name="add_new_event">Add Tour</string>
+    <string name="clear">Clear</string>
+    <string name="no_event_text">No Tour. Please add an Tour first</string>
+    <string name="user_available">User Name Available</string>
+    <string name="user_not_available">User is not available</string>
+    <string name="activity_description">Activity Description</string>
+    <string name="add_activity">Add Activity</string>
+    <string name="add_image_from">Add Image From</string>
+    <string name="result_cancel">You canceled activity add</string>
+    <string name="result_wrong">Somethings wrong. Try again.</string>
+    <string name="used_amount">Used Amount Tk</string>
+    <string name="camera">Camera</string>
+    <string name="gallery">Gallery</string>
+    <string name="no_activity">No Activity Added! Please Add Some First</string>
+    <string name="no_account">No Account Yet?</string>
+    <string name="sign_in">Sign In:</string>
+    <string name="registration">Registration Form</string>
+    <string name="or">Or</string>
+    <string name="password_recovery">Password Recovery Form</string>
+    <string name="repeat_password">Repeat Password</string>
+    <string name="title_activity_near_location">Map</string>
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">
+        AIzaSyB1LHgjw_hTYQC9qMef__3RfTxBQp9M9XI
+    </string>
+
+    <string-array name="place_type">
+        <item>airport</item>
+        <item>atm</item>
+        <item>bank</item>
+        <item>bus_station</item>
+        <item>church</item>
+        <item>doctor</item>
+        <item>hospital</item>
+        <item>mosque</item>
+        <item>movie_theater</item>
+        <item>hindu_temple</item>
+        <item>restaurant</item>
+    </string-array>
+
+    <string-array name="place_type_name">
+        <item>Airport</item>
+        <item>ATM</item>
+        <item>Bank</item>
+        <item>Bus Station</item>
+        <item>Church</item>
+        <item>Doctor</item>
+        <item>Hospital</item>
+        <item>Mosque</item>
+        <item>Movie Theater</item>
+        <item>Hindu Temple</item>
+        <item>Restaurant</item>
+    </string-array>
+    <string name="str_btn_find">Find</string>
+    <string name="browse">Browse</string>
+    <string name="title_activity_navigatio">Navigatio</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+</resources>

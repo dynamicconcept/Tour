@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:descendantFocusability="blocksDescendants"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/cityName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="City Name" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/weatherIcon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center|end"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/temperature"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="start|center" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/weatherDetails"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Details" />
+
+            <TextView
+                android:id="@+id/upDatesTime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:gravity="center"
+                android:text="Updates times" />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TableRow android:gravity="center">
+
+                    <TextView
+                        android:layout_column="1"
+                        android:layout_marginRight="50dp"
+                        android:padding="3dip"
+                        android:text="Wind " />
+
+                    <TextView
+                        android:id="@+id/windDetails"
+                        android:gravity="left"
+                        android:padding="3dip" />
+                </TableRow>
+
+                <TableRow android:gravity="center">
+
+                    <TextView
+                        android:layout_column="1"
+                        android:layout_marginRight="50dp"
+                        android:padding="3dip"
+                        android:text="Cloudiness " />
+
+                    <TextView
+                        android:id="@+id/cloudDetails"
+                        android:gravity="left"
+                        android:padding="3dip"/>
+                </TableRow>
+
+                <TableRow android:gravity="center">
+
+                    <TextView
+                        android:layout_column="1"
+                        android:layout_marginRight="50dp"
+                        android:padding="3dip"
+                        android:text="Pressure " />
+
+                    <TextView
+                        android:id="@+id/pressureDetails"
+                        android:gravity="left"
+                        android:padding="3dip" />
+                </TableRow>
+
+                <TableRow android:gravity="center">
+
+                    <TextView
+                        android:layout_column="1"
+                        android:layout_marginRight="50dp"
+                        android:padding="3dip"
+                        android:text="Humidity " />
+
+                    <TextView
+                        android:id="@+id/humidityDetails"
+                        android:gravity="left"
+                        android:padding="3dip"/>
+                </TableRow>
+
+                <TableRow android:gravity="center">
+
+                    <TextView
+                        android:layout_column="1"
+                        android:layout_marginRight="50dp"
+                        android:padding="3dip"
+                        android:text="Rain " />
+
+                    <TextView
+                        android:id="@+id/rain"
+                        android:gravity="left"
+                        android:padding="3dip" />
+                </TableRow>
+
+                <TableRow android:gravity="center">
+
+                    <TextView
+                        android:layout_column="1"
+                        android:layout_marginRight="50dp"
+                        android:padding="3dip"
+                        android:text="Clouds " />
+
+                    <TextView
+                        android:id="@+id/clouds"
+                        android:gravity="left"
+                        android:padding="3dip" />
+                </TableRow>
+
+                <TableRow android:gravity="center">
+
+                    <TextView
+                        android:layout_column="1"
+                        android:layout_marginRight="50dp"
+                        android:padding="3dip"
+                        android:text="Max Temp " />
+
+                    <TextView
+                        android:id="@+id/maxTemp"
+                        android:gravity="left"
+                        android:padding="3dip" />
+                </TableRow>
+
+                <TableRow android:gravity="center">
+
+                    <TextView
+                        android:layout_column="1"
+                        android:layout_marginRight="50dp"
+                        android:padding="3dip"
+                        android:text="Min Temp " />
+
+                    <TextView
+                        android:id="@+id/minTemp"
+                        android:gravity="left"
+                        android:padding="3dip" />
+                </TableRow>
+
+            </TableLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:text="Information Source OpenWeatherMap"
+                android:textColor="@color/colorPrimary" />
+
+        </LinearLayout>
+    </ScrollView>
+</layout>
